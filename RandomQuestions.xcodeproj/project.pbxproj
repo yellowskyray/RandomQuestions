@@ -14,6 +14,7 @@
 		9D01B533230ED2A300B8FE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D01B531230ED2A300B8FE4E /* LaunchScreen.storyboard */; };
 		9D01B53E230ED2A300B8FE4E /* RandomQuestionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B53D230ED2A300B8FE4E /* RandomQuestionsTests.swift */; };
 		9D01B549230ED2A300B8FE4E /* RandomQuestionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B548230ED2A300B8FE4E /* RandomQuestionsUITests.swift */; };
+		9D139017231A989A00F1BF6D /* MoodQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D139016231A989A00F1BF6D /* MoodQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9D01B544230ED2A300B8FE4E /* RandomQuestionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomQuestionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D01B548230ED2A300B8FE4E /* RandomQuestionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionsUITests.swift; sourceTree = "<group>"; };
 		9D01B54A230ED2A300B8FE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D139016231A989A00F1BF6D /* MoodQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9D01B528230ED2A100B8FE4E /* AppDelegate.swift */,
 				9D01B52A230ED2A100B8FE4E /* ViewController.swift */,
+				9D139016231A989A00F1BF6D /* MoodQuestionViewController.swift */,
 				9D01B52C230ED2A100B8FE4E /* Main.storyboard */,
 				9D01B52F230ED2A300B8FE4E /* Assets.xcassets */,
 				9D01B531230ED2A300B8FE4E /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D139017231A989A00F1BF6D /* MoodQuestionViewController.swift in Sources */,
 				9D01B52B230ED2A100B8FE4E /* ViewController.swift in Sources */,
 				9D01B529230ED2A100B8FE4E /* AppDelegate.swift in Sources */,
 			);
